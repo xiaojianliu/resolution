@@ -56,7 +56,7 @@ lon2=lon[index1]
 lat2=lat[index1]
 
 lon3=lon[index2]
-lat3=lon[index2]
+lat3=lat[index2]
 dd=haversine(lon2,lat2,lon3,lat3)
 print ('resolution',dd)
 
